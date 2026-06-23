@@ -153,3 +153,4 @@ print(importance.head(20))
 print("R²:", r2_score(y_test, pred))
 
 
+freq_encode_data.to_csv("cleaned_dataset.csv", index=False)
