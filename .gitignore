@@ -6,3 +6,5 @@ __pycache__/
 .sixth
 .venv
 *.csv
+train-images-idx3-ubyte
+train-labels-idx1-ubyte
