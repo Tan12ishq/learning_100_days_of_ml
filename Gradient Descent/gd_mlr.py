@@ -49,7 +49,7 @@ lr.fit(x_train, y_train)
 
 sklearn_pred = lr.predict(x_test)
 
-print("========== Sklearn ==========")
+print(" Sklearn ")
 print("Intercept :", lr.intercept_)
 print("Coefficients :", lr.coef_)
 print("R2 Score :", r2_score(y_test, sklearn_pred))
@@ -114,7 +114,7 @@ gd.fit(x_train, y_train)
 
 gd_pred = gd.predict(x_test)
 
-print("\n========== Gradient Descent ==========")
+print("\n Gradient Descent ")
 print("Intercept :", gd.intercept)
 print("Coefficients :", gd.coefficients)
 print("R2 Score :", r2_score(y_test, gd_pred))
